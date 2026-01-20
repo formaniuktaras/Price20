@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+.desc-editor-cache/
+desc-editor/node_modules/
+desc-editor/dist/
+.DS_Store

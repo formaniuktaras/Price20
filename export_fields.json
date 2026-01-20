@@ -1,0 +1,398 @@
+[
+  {
+    "field": "Код_товару",
+    "template": "{{ spec('Код_товару') }}",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Назва_позиції_укр",
+    "template": "{{ title }}",
+    "enabled": true,
+    "languages": [
+      "uk"
+    ]
+  },
+  {
+    "field": "Назва_позиції",
+    "template": "{{ title }}",
+    "enabled": true,
+    "languages": [
+      "ru"
+    ]
+  },
+  {
+    "field": "Пошукові_запити_укр",
+    "template": "{{ tags }}",
+    "enabled": true,
+    "languages": [
+      "uk"
+    ]
+  },
+  {
+    "field": "Пошукові_запити",
+    "template": "{{ tags }}",
+    "enabled": false,
+    "languages": [
+      "ru"
+    ]
+  },
+  {
+    "field": "Опис_укр",
+    "template": "{{ description }}",
+    "enabled": true,
+    "languages": [
+      "uk"
+    ]
+  },
+  {
+    "field": "Опис",
+    "template": "{{ description }}",
+    "enabled": true,
+    "languages": [
+      "ru"
+    ]
+  },
+  {
+    "field": "Тип_товару",
+    "template": "r",
+    "enabled": true,
+    "languages": []
+  },
+  {
+    "field": "Ціна",
+    "template": "=IF(\n  {{category}}=\"Смартфони\";\n     IFS(\n              {{film_type}}=\"прозора\";169;\n              {{film_type}}=\"матова\";179;\n              {{film_type}}=\"anti-blue\";189;\n              {{film_type}}=\"privacy matte\";229;\n              {{film_type}}=\"privacy clear\";219;\n                                                                            TRUE;300)\n\n)",
+    "enabled": true,
+    "languages": []
+  },
+  {
+    "field": "Валюта",
+    "template": "UAH",
+    "enabled": true,
+    "languages": []
+  },
+  {
+    "field": "Одиниця_виміру",
+    "template": "шт.",
+    "enabled": true,
+    "languages": []
+  },
+  {
+    "field": "Мінімальний_обсяг_замовлення",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Оптова_ціна",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Мінімальне_замовлення_опт",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Посилання_зображення",
+    "template": "=ifs(\n\t{{film_type}}=\"прозора\";\n\t\t\"https://images.prom.ua/5596985259_w1280_h1280_dasvfdg.png,https://images.prom.ua/4331979631_w1280_h1280_kk_1_1_1.png,https://images.prom.ua/5102344895_w1280_h1280_image.webp,https://images.prom.ua/4924663919_w1280_h1280_image.png,https://images.prom.ua/6225836389_w1280_h1280_nstruktsiya_z_poklejki_watermark.png)\";\n\t{{film_type}}=\"матова\";\n\t\t\"https://images.prom.ua/6638538940_w1280_h1280_adaptiv_centr_empty.png,https://images.prom.ua/4331979631_w1280_h1280_kk_1_1_1.png,https://images.prom.ua/5102344895_w1280_h1280_image.webp,https://images.prom.ua/4924663919_w1280_h1280_image.png,https://images.prom.ua/6225836389_w1280_h1280_nstruktsiya_z_poklejki_watermark.png)\";\n\t{{film_type}}=\"anti-blue\";\n\t\t\"https://images.prom.ua/6638547886_w1280_h1280_anti_blue_centr_empty.png,https://images.prom.ua/4331979631_w1280_h1280_kk_1_1_1.png,https://images.prom.ua/5102344895_w1280_h1280_image.webp,https://images.prom.ua/4924663919_w1280_h1280_image.png,https://images.prom.ua/6225836389_w1280_h1280_nstruktsiya_z_poklejki_watermark.png)\";\n\t{{film_type}}=\"privacy mate\";\n\t\t\"https://images.prom.ua/5596986208_w1280_h1280_dasvfdg_kopiya.png,https://images.prom.ua/6438152049_w1280_h1280_image.png,https://images.prom.ua/6595118003_w1280_h1280_image.webp,https://images.prom.ua/6438147789_w1280_h1280_image.png,https://images.prom.ua/6438151533_w1280_h1280_image.png,https://images.prom.ua/6377883941_w1280_h1280_image.png)\";\n\t{{film_type}}=\"privacy clear\";\n\t\t\"https://images.prom.ua/6221316266_w1280_h1280_image.png,https://images.prom.ua/6438152049_w1280_h1280_image.png,https://images.prom.ua/6595118003_w1280_h1280_image.webp,https://images.prom.ua/6438147789_w1280_h1280_image.png,https://images.prom.ua/6438151533_w1280_h1280_image.png,https://images.prom.ua/6377883941_w1280_h1280_image.png)\"\n\n)",
+    "enabled": true,
+    "languages": []
+  },
+  {
+    "field": "Наявність",
+    "template": "!",
+    "enabled": true,
+    "languages": []
+  },
+  {
+    "field": "Кількість",
+    "template": "100",
+    "enabled": true,
+    "languages": []
+  },
+  {
+    "field": "Номер_групи",
+    "template": "{{ category_id }}",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Назва_групи",
+    "template": "{{ category }}",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Посилання_підрозділу",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Можливість_поставки",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Термін_поставки",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Спосіб_пакування_укр",
+    "template": "",
+    "enabled": false,
+    "languages": [
+      "uk"
+    ]
+  },
+  {
+    "field": "Спосіб_пакування",
+    "template": "",
+    "enabled": false,
+    "languages": [
+      "ru"
+    ]
+  },
+  {
+    "field": "Унікальний_ідентифікатор",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Ідентифікатор_товару",
+    "template": "{{ model_id }}",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Ідентифікатор_підрозділу",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Ідентифікатор_групи",
+    "template": "{{ category_id }}",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Виробник",
+    "template": "{{ brand }}",
+    "enabled": true,
+    "languages": []
+  },
+  {
+    "field": "Країна_виробник",
+    "template": "Южная Корея",
+    "enabled": true,
+    "languages": []
+  },
+  {
+    "field": "Знижка",
+    "template": "",
+    "enabled": true,
+    "languages": []
+  },
+  {
+    "field": "ID_групи_різновидів",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Особисті_нотатки",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Продукт_на_сайті",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Термін_дії_знижки_від",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Термін_дії_знижки_до",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Ціна_від",
+    "template": "-",
+    "enabled": true,
+    "languages": []
+  },
+  {
+    "field": "Ярлик",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "HTML_заголовок_укр",
+    "template": "{{ title }}",
+    "enabled": false,
+    "languages": [
+      "uk"
+    ]
+  },
+  {
+    "field": "HTML_заголовок",
+    "template": "{{ title }}",
+    "enabled": false,
+    "languages": [
+      "ru"
+    ]
+  },
+  {
+    "field": "HTML_опис_укр",
+    "template": "{{ description }}",
+    "enabled": false,
+    "languages": [
+      "uk"
+    ]
+  },
+  {
+    "field": "HTML_опис",
+    "template": "{{ description }}",
+    "enabled": false,
+    "languages": [
+      "ru"
+    ]
+  },
+  {
+    "field": "Код_маркування_(GTIN)",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Номер_пристрою_(MPN)",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Вага,кг",
+    "template": "{{ spec('Вага, кг') }}",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Ширина,см",
+    "template": "{{ spec('Ширина, см') }}",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Висота,см",
+    "template": "{{ spec('Висота, см') }}",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Довжина,см",
+    "template": "{{ spec('Довжина, см') }}",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Де_знаходиться_товар",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Назва_Характеристики",
+    "template": "{{ spec_items | map(attribute=0) | join('; ') }}",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Одиниця_виміру_Характеристики",
+    "template": "",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Значення_Характеристики",
+    "template": "{{ spec_items | map(attribute=1) | join('; ') }}",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Назва_Характеристики",
+    "template": "Материал",
+    "enabled": true,
+    "languages": []
+  },
+  {
+    "field": "Одиниця_виміру_Характеристики",
+    "template": "",
+    "enabled": true,
+    "languages": []
+  },
+  {
+    "field": "Значення_Характеристики",
+    "template": "Гидрогель",
+    "enabled": true,
+    "languages": []
+  },
+  {
+    "field": "Категорія",
+    "template": "{{ category }}",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Бренд",
+    "template": "{{ brand }}",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Модель",
+    "template": "{{ model }}",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Тип_плівки",
+    "template": "{{ film_type }}",
+    "enabled": false,
+    "languages": []
+  },
+  {
+    "field": "Назва_Характеристики",
+    "template": "Тип",
+    "enabled": true,
+    "languages": []
+  },
+  {
+    "field": "Одиниця_виміру_Характеристики",
+    "template": "",
+    "enabled": true,
+    "languages": []
+  },
+  {
+    "field": "Значення_Характеристики",
+    "template": "Защитная пленка",
+    "enabled": true,
+    "languages": []
+  }
+]

@@ -1,0 +1,264 @@
+{
+  "default": {
+    "title_template": {
+      "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+      "languages": {}
+    },
+    "tags_template": {
+      "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+      "languages": {}
+    }
+  },
+  "by_film": {
+    "прозора": {
+      "title_template": {
+        "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+        "languages": {}
+      },
+      "tags_template": {
+        "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+        "languages": {}
+      }
+    },
+    "матова": {
+      "title_template": {
+        "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+        "languages": {}
+      },
+      "tags_template": {
+        "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+        "languages": {}
+      }
+    },
+    "privacy clear": {
+      "title_template": {
+        "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+        "languages": {}
+      },
+      "tags_template": {
+        "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+        "languages": {}
+      }
+    },
+    "privacy mate": {
+      "title_template": {
+        "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+        "languages": {}
+      },
+      "tags_template": {
+        "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+        "languages": {}
+      }
+    },
+    "anti-blue": {
+      "title_template": {
+        "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+        "languages": {}
+      },
+      "tags_template": {
+        "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+        "languages": {}
+      }
+    }
+  },
+  "by_category": {
+    "Планшети": {
+      "default": {
+        "title_template": {
+          "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+          "languages": {}
+        },
+        "tags_template": {
+          "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+          "languages": {}
+        }
+      },
+      "by_film": {
+        "прозора": {
+          "title_template": {
+            "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          },
+          "tags_template": {
+            "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          }
+        },
+        "матова": {
+          "title_template": {
+            "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          },
+          "tags_template": {
+            "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          }
+        },
+        "privacy clear": {
+          "title_template": {
+            "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          },
+          "tags_template": {
+            "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          }
+        },
+        "privacy mate": {
+          "title_template": {
+            "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          },
+          "tags_template": {
+            "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          }
+        },
+        "anti-blue": {
+          "title_template": {
+            "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          },
+          "tags_template": {
+            "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          }
+        }
+      }
+    },
+    "Смартфони": {
+      "default": {
+        "title_template": {
+          "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+          "languages": {}
+        },
+        "tags_template": {
+          "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+          "languages": {}
+        }
+      },
+      "by_film": {
+        "прозора": {
+          "title_template": {
+            "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {
+              "ru": "Усиленная пленка для {{ brand }} {{ model }} Гидрогелевая глянцевая прозрачная ударопрочная",
+              "uk": "Посилена плівка для {{ brand }} {{ model }} Гідрогелева глянцева прозора ударостійка"
+            }
+          },
+          "tags_template": {
+            "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {
+              "ru": "Гидрогелевая пленка для {{ brand }} {{ model }}, защитная пленка для {{ brand }} {{ model }}, бронебойная пленка для {{ brand }} {{ model }}, пленка для {{ brand }} {{ model }} прозрачная, пленка для {{ brand }} {{ model }} глянцевая, усиленая пленка для {{ brand }} {{ model }}, бронированная пленка для {{ brand }} {{ model }} гидропленка для {{ brand }} {{ model }}, полиуретановая пленка для {{ brand }} {{ model }}, ударопрочная пленка Apple iPhone 16 Pro Max, противоударная пленка {{ brand }} {{ model }}, пленка на экран {{ brand }} {{ model }}, пленка на весь экран {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}",
+              "uk": "Гідрогелева плівка для {{ brand }} {{ model }}, захисна плівка для {{ brand }} {{ model }}, бронебійна плівка для {{ brand }} {{ model }}, плівка для {{ brand }} {{ model }} прозора, плівка для {{ brand }} {{ model }} глянсова, посилена плівка для {{ brand }} {{ model }}, бронована плівка для Apple iPhone 16 Pro Max, плівка для Apple iPhone 16 Pro Max, поліуретанова плівка для Apple iPhone 16 Pro Max, ударостійка плівка Apple iPhone 16 Pro Max, протиударна плівка Apple iPhone 16 Pro Max, плівка на екран Apple iPhone 16 Pro Max, плівка на весь екран Apple iPhone 16 Pro Max, hydrogel film {{ brand }} {{ model }}"
+            }
+          }
+        },
+        "матова": {
+          "title_template": {
+            "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          },
+          "tags_template": {
+            "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          }
+        },
+        "privacy clear": {
+          "title_template": {
+            "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          },
+          "tags_template": {
+            "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          }
+        },
+        "privacy mate": {
+          "title_template": {
+            "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          },
+          "tags_template": {
+            "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          }
+        },
+        "anti-blue": {
+          "title_template": {
+            "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          },
+          "tags_template": {
+            "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          }
+        }
+      }
+    },
+    "Годинники": {
+      "default": {
+        "title_template": {
+          "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+          "languages": {}
+        },
+        "tags_template": {
+          "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+          "languages": {}
+        }
+      },
+      "by_film": {
+        "прозора": {
+          "title_template": {
+            "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          },
+          "tags_template": {
+            "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          }
+        },
+        "матова": {
+          "title_template": {
+            "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          },
+          "tags_template": {
+            "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          }
+        },
+        "privacy clear": {
+          "title_template": {
+            "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          },
+          "tags_template": {
+            "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          }
+        },
+        "privacy mate": {
+          "title_template": {
+            "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          },
+          "tags_template": {
+            "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          }
+        },
+        "anti-blue": {
+          "title_template": {
+            "default": "Гідрогелева плівка {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          },
+          "tags_template": {
+            "default": "{{ brand }} {{ model }}, плівка {{ brand }} {{ model }}, hydrogel film {{ brand }} {{ model }}, {{ film_type }} {{ brand }} {{ model }}",
+            "languages": {}
+          }
+        }
+      }
+    }
+  }
+}
