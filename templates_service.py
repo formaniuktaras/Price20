@@ -716,6 +716,31 @@ def resolve_title_tags(
     return title_map, tags_map
 
 
+def _migrate_export_fields_templates(fields: list[dict]) -> tuple[list[dict], bool]:
+    changed = False
+    for item in fields:
+        field = (item.get("field") or "").strip()
+        tpl = (item.get("template") or "").strip()
+        if field in {"Код_товару", "KODTOVARU", "ID"}:
+            if "clean_id" in tpl:
+                continue
+            normalized = tpl.replace(" ", "")
+            simple_variants = {
+                "",
+                "{{spec('Код_товару')}}",
+                '{{spec("Код_товару")}}',
+                "{{spec('KODTOVARU')}}",
+                '{{spec("KODTOVARU")}}',
+                "{{spec('ID')}}",
+                '{{spec("ID")}}',
+            }
+            if normalized in simple_variants:
+                target_spec = field
+                item["template"] = f"{{{{ clean_id(spec('{target_spec}')) }}}}"
+                changed = True
+    return fields, changed
+
+
 def load_export_fields():
     path = _config_path(EXPORT_FIELDS_FILENAME)
     data = _load_json_config(path, _copy_default_export_fields, list)
@@ -782,6 +807,11 @@ def load_export_fields():
         normalized = _copy_default_export_fields()
         save_export_fields(normalized)
         return normalized
+
+    normalized, migrated = _migrate_export_fields_templates(normalized)
+    if migrated:
+        save_export_fields(normalized)
+        changed = False
 
     if changed:
         save_export_fields(normalized)
