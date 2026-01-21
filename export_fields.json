@@ -1,7 +1,7 @@
 [
   {
     "field": "Код_товару",
-    "template": "{{ spec('Код_товару') }}",
+    "template": "{{ clean_id(spec('Код_товару')) }}",
     "enabled": false,
     "languages": []
   },
